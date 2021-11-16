@@ -1,0 +1,8 @@
+@startuml
+:Create transfer;
+:Select data;
+:Scan data;
+:Transfer data;
+:Verify transfer (optional);
+:Transfer report (optional);
+@enduml
