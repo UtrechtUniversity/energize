@@ -1,7 +1,9 @@
 @startuml
 [ii CLI client] ..> [Energize control process] : client API
+[desktop client (not in first version)] ..> [Energize control process] : client API
+[synchronization client (not in first version)] ..> [Energize control process] : client API
 [other client] ..> [Energize control process] : client API
 [Energize control process] ..-> [Worker 1]
 [Energize control process] ..-> [Worker 2]
-[Energize control process] ..-> [Worker 3]
+[Energize control process] ..-> [Worker n]
 @enduml
